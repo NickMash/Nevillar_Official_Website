@@ -6,6 +6,7 @@ let navigationContainer = document.getElementById('navigation__container');
 let deleteUnderline = () => {
     menuItems.forEach(function(item){
         item.classList.remove('toggle_underline');
+        item.classList.add('nav_hover');
     });
 };
 
@@ -14,6 +15,7 @@ navigationContainer.addEventListener("click", (e) => {
     if (e.target.classList.contains('nav_menu_item')) {
         deleteUnderline();
         e.target.classList.add('toggle_underline');
+        e.target.classList.remove('nav_hover');
     }
 });
 
