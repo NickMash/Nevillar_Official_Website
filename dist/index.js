@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../images/name.png */ \"./src/images/name.png\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../images/guest_avatar.jpg */ \"./src/images/guest_avatar.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ../images/main_background.png */ \"./src/images/main_background.png\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\n// Module\nexports.push([module.i, \"body, html {\\n  width: 100%;\\n  height: 100%;\\n  background: linear-gradient(171.8deg, #0e0e22 13.5%, #010104 78.6%);\\n  background-size: cover;\\n  overflow-x: hidden;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.overall__container {\\n  margin: 0 auto;\\n  height: 100px;\\n  max-width: 1400px;\\n}\\n\\n.header__container {\\n  display: flex;\\n  width: 100%;\\n  height: 100px;\\n  border-bottom: 1px rgba(61, 101, 160, 0.7) solid;\\n  margin-bottom: 10px;\\n}\\n\\n.logo {\\n  width: 80px;\\n  height: 80px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-repeat: no-repeat;\\n  background-size: 80px;\\n  margin-top: 10px;\\n}\\n\\n.logo:hover {\\n  cursor: pointer;\\n}\\n\\n.name {\\n  width: 220px;\\n  height: 55px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-repeat: no-repeat;\\n  background-size: 220px;\\n  margin-top: 22px;\\n}\\n\\n.name:hover {\\n  cursor: pointer;\\n}\\n\\n.guest_name {\\n  margin-left: 32%;\\n  margin-top: 27px;\\n  color: #a6adb7;\\n  font-family: Calibri;\\n  font-size: 110%;\\n  font-weight: bold;\\n}\\n\\n.guest {\\n  color: white;\\n  font-family: Calibri;\\n  font-size: 150%;\\n  font-weight: bold;\\n}\\n\\n.avatar {\\n  width: 64px;\\n  height: 64px;\\n  margin: 17px 0 0 35px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n  background-size: cover;\\n  border-radius: 50%;\\n}\\n\\n.login_status {\\n  margin-left: 40px;\\n  margin-top: 33px;\\n  color: #a6adb7;\\n  font-family: Calibri;\\n  font-size: 100%;\\n  font-weight: bold;\\n}\\n\\n.login_status_scale {\\n  width: 200px;\\n  height: 12px;\\n  border-radius: 12px;\\n  background: #0d2348;\\n  margin-top: 10px;\\n}\\n\\n.login_sign_up_button {\\n  width: 188px;\\n  height: 34px;\\n  text-align: center;\\n  padding-top: 10px;\\n  margin-left: 47px;\\n  margin-top: 27px;\\n  color: #e8f5ff;\\n  font-family: Calibri;\\n  font-size: 110%;\\n  font-weight: bold;\\n  border-radius: 46px;\\n  border: 2px #1347b7 solid;\\n  background-color: #1347b7;\\n  -webkit-transition: all 0.25s ease;\\n  -o-transition: all 0.25s ease;\\n  transition: all 0.25s ease;\\n}\\n\\n.login_sign_up_button:hover {\\n  cursor: pointer;\\n  background-color: rgba(19, 71, 183, 0);\\n}\\n\\n.navigation__container {\\n  display: flex;\\n  flex-wrap: wrap;\\n  width: 60%;\\n  height: 70px;\\n  margin: auto;\\n}\\n\\n.nav_menu_item {\\n  display: flex;\\n  flex-grow: 1;\\n  width: 90px;\\n  height: 45px;\\n  font-size: 110%;\\n  font-weight: bold;\\n  font-family: Calibri;\\n  color: #464f6a;\\n  justify-content: center;\\n  padding-top: 12px;\\n  -webkit-tap-highlight-color: transparent;\\n  -moz-user-select: none;\\n  -khtml-user-select: none;\\n  -webkit-user-select: none;\\n  user-select: none;\\n}\\n\\n.nav_hover {\\n  -webkit-transition: all 0.1s ease;\\n  -o-transition: all 0.1s ease;\\n  transition: all 0.1s ease;\\n}\\n\\n.nav_hover:hover {\\n  cursor: pointer;\\n  color: #848a94;\\n}\\n\\n.toggle_underline {\\n  color: white;\\n  border-bottom: 3px #1242a8 solid;\\n}\\n\\n.toggle_underline:hover {\\n  cursor: pointer;\\n}\\n\\n.main__container {\\n  max-width: 1400px;\\n  min-height: 900px;\\n  margin: 0 auto;\\n  background-size: 100%;\\n  background-repeat: no-repeat;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../images/main_background.png */ \"./src/images/main_background.png\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../images/name.png */ \"./src/images/name.png\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ../images/guest_avatar.jpg */ \"./src/images/guest_avatar.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ../images/somebody_say_yeah_cover.jpg */ \"./src/images/somebody_say_yeah_cover.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ../images/destroy_the_club_cover.jpg */ \"./src/images/destroy_the_club_cover.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(/*! ../images/fat_beat_cover.jpg */ \"./src/images/fat_beat_cover.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(/*! ../images/oldschool_rave_cover.jpg */ \"./src/images/oldschool_rave_cover.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(/*! ../images/boom_cover.jpg */ \"./src/images/boom_cover.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(/*! ../images/get_em_high_cover.jpg */ \"./src/images/get_em_high_cover.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(/*! ../images/play_icon.png */ \"./src/images/play_icon.png\");\nvar ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(/*! ../images/soundcloud_icon.png */ \"./src/images/soundcloud_icon.png\");\nvar ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(/*! ../images/facebook_icon.png */ \"./src/images/facebook_icon.png\");\nvar ___CSS_LOADER_URL_IMPORT_13___ = __webpack_require__(/*! ../images/instagram_icon.png */ \"./src/images/instagram_icon.png\");\nvar ___CSS_LOADER_URL_IMPORT_14___ = __webpack_require__(/*! ../images/youtube_icon.png */ \"./src/images/youtube_icon.png\");\nvar ___CSS_LOADER_URL_IMPORT_15___ = __webpack_require__(/*! ../images/twitter_icon.png */ \"./src/images/twitter_icon.png\");\nvar ___CSS_LOADER_URL_IMPORT_16___ = __webpack_require__(/*! ../images/spotify_icon.png */ \"./src/images/spotify_icon.png\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);\nvar ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);\nvar ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);\nvar ___CSS_LOADER_URL_REPLACEMENT_12___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_12___);\nvar ___CSS_LOADER_URL_REPLACEMENT_13___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_13___);\nvar ___CSS_LOADER_URL_REPLACEMENT_14___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_14___);\nvar ___CSS_LOADER_URL_REPLACEMENT_15___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_15___);\nvar ___CSS_LOADER_URL_REPLACEMENT_16___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_16___);\n// Module\nexports.push([module.i, \"html {\\n  background: linear-gradient(171.8deg, #0e0e22 13.5%, #010104 78.6%);\\n  background-size: cover;\\n  overflow-x: hidden;\\n  margin: 0;\\n  padding: 0;\\n  background-attachment: fixed;\\n}\\n\\nbody {\\n  margin: 0 auto;\\n  background-size: 100%;\\n  background-repeat: no-repeat;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-attachment: fixed;\\n}\\n\\n* {\\n  -webkit-tap-highlight-color: transparent;\\n  -moz-user-select: none;\\n  -khtml-user-select: none;\\n  -webkit-user-select: none;\\n  user-select: none;\\n}\\n\\n.overall__container {\\n  display: flex;\\n  justify-content: center;\\n  margin: 0 auto;\\n  max-width: 1400px;\\n}\\n\\n.for_header_background_color {\\n  display: flex;\\n  justify-content: center;\\n  position: fixed;\\n  width: 100%;\\n  height: 103px;\\n  background: linear-gradient(#0e0e22 100%, rgba(0, 0, 0, 0) 100%);\\n}\\n\\n.header__container {\\n  display: flex;\\n  justify-content: space-between;\\n  flex-wrap: wrap;\\n  width: 100%;\\n  height: 100px;\\n  border-bottom: 1px rgba(61, 101, 160, 0.7) solid;\\n  position: fixed;\\n  max-width: 1400px;\\n  background-color: #0E0E22;\\n  -moz-box-shadow: 0 50px 100px #0E0E22;\\n  -webkit-box-shadow: 0 50px 100px #0E0E22;\\n  box-shadow: 0 50px 100px #0E0E22;\\n  border-radius: 100px;\\n}\\n\\n.logo {\\n  display: flex;\\n  width: 305px;\\n  height: 100px;\\n  margin-left: 8px;\\n}\\n\\n.logo_icon {\\n  width: 80px;\\n  height: 80px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-repeat: no-repeat;\\n  background-size: 80px;\\n  margin-top: 10px;\\n}\\n\\n.logo:hover {\\n  cursor: pointer;\\n}\\n\\n.logo_name {\\n  width: 220px;\\n  height: 55px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n  background-repeat: no-repeat;\\n  background-size: 220px;\\n  margin-top: 22px;\\n}\\n\\n.name:hover {\\n  cursor: pointer;\\n}\\n\\n.login_box {\\n  display: flex;\\n  width: 418px;\\n  height: 100px;\\n  margin-right: 27px;\\n}\\n\\n.guest_name {\\n  margin-top: 27px;\\n  margin-left: 30px;\\n  color: #a6adb7;\\n  font-family: Calibri;\\n  font-size: 110%;\\n  font-weight: bold;\\n}\\n\\n.guest {\\n  color: white;\\n  font-family: Calibri;\\n  font-size: 150%;\\n  font-weight: bold;\\n}\\n\\n.avatar {\\n  width: 64px;\\n  height: 64px;\\n  margin: 17px 0 0 30px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n  background-size: cover;\\n  border-radius: 50%;\\n}\\n\\n.login_sign_up_button {\\n  width: 45%;\\n  height: 34px;\\n  text-align: center;\\n  padding-top: 10px;\\n  margin-left: 30px;\\n  margin-top: 27px;\\n  color: #e8f5ff;\\n  font-family: Calibri;\\n  font-size: 110%;\\n  font-weight: bold;\\n  border-radius: 46px;\\n  border: 2px #1347b7 solid;\\n  background-color: #1347b7;\\n  -webkit-transition: all 0.25s ease;\\n  -o-transition: all 0.25s ease;\\n  transition: all 0.25s ease;\\n}\\n\\n.login_sign_up_button:hover {\\n  cursor: pointer;\\n  background-color: rgba(19, 71, 183, 0);\\n}\\n\\n.for_nav_background_color {\\n  display: flex;\\n  justify-content: center;\\n  flex-wrap: wrap;\\n  width: 100%;\\n  height: 180px;\\n  margin: 101px 0 0 0;\\n  position: fixed;\\n  background: linear-gradient(#0e0e22 35%, rgba(0, 0, 0, 0) 100%);\\n}\\n\\n.navigation__container {\\n  display: flex;\\n  justify-content: space-between;\\n  flex-wrap: wrap;\\n  width: 60%;\\n  height: 70px;\\n  margin: 0 auto;\\n  position: fixed;\\n}\\n\\n.nav_menu_item {\\n  display: flex;\\n  flex-grow: 1;\\n  min-width: 107px;\\n  max-width: 107px;\\n  height: 45px;\\n  font-size: 110%;\\n  font-weight: bold;\\n  font-family: Calibri;\\n  color: #464f6a;\\n  justify-content: center;\\n  padding-top: 22px;\\n  -webkit-tap-highlight-color: transparent;\\n  -moz-user-select: none;\\n  -khtml-user-select: none;\\n  -webkit-user-select: none;\\n  user-select: none;\\n}\\n\\n.nav_hover {\\n  -webkit-transition: all 0.1s ease;\\n  -o-transition: all 0.1s ease;\\n  transition: all 0.1s ease;\\n}\\n\\n.nav_hover:hover {\\n  cursor: pointer;\\n  color: #848a94;\\n}\\n\\n.toggle_underline {\\n  color: white;\\n  border-bottom: 3px #1242a8 solid;\\n}\\n\\n.toggle_underline:hover {\\n  cursor: pointer;\\n}\\n\\n.main__container {\\n  position: initial;\\n  display: flex;\\n  justify-content: center;\\n  flex-wrap: wrap;\\n  padding-top: 250px;\\n}\\n\\n.dynamic_content {\\n  width: 100%;\\n  min-height: 900px;\\n  position: initial;\\n  display: flex;\\n  justify-content: center;\\n  flex-wrap: wrap;\\n}\\n\\n.welcome {\\n  width: 100%;\\n  height: 80px;\\n  color: white;\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 370%;\\n  text-align: center;\\n  margin-bottom: 100px;\\n}\\n\\n.youtube_player {\\n  margin-top: -100px;\\n}\\n\\n.music_box {\\n  width: 318px;\\n  height: 350px;\\n  margin: 30px 15px;\\n  border: 1px #1c3474 solid;\\n  -moz-box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;\\n  -webkit-box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;\\n  box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;\\n  background-color: rgba(0, 0, 0, 0.85);\\n}\\n\\n.for_alignment {\\n  width: 318px;\\n  height: 5px;\\n  margin: 30px 15px;\\n}\\n\\n.music_cover {\\n  width: 258px;\\n  height: 258px;\\n  background-size: cover;\\n  margin-left: auto;\\n  margin-right: auto;\\n  margin-top: -30px;\\n}\\n\\n.music_box:nth-child(2) .music_cover {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \");\\n}\\n\\n.music_box:nth-child(3) .music_cover {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \");\\n}\\n\\n.music_box:nth-child(4) .music_cover {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \");\\n}\\n\\n.music_box:nth-child(5) .music_cover {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \");\\n}\\n\\n.music_box:nth-child(6) .music_cover {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \");\\n}\\n\\n.music_box:nth-child(7) .music_cover {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \");\\n}\\n\\n.track_name {\\n  color: rgba(252, 251, 255, 0.85);\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 130%;\\n  text-align: center;\\n  margin-top: 15px;\\n}\\n\\n.play {\\n  margin: 10px auto;\\n  width: 50px;\\n  height: 50px;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_10___ + \");\\n  background-size: cover;\\n  opacity: 0.75;\\n}\\n\\n.biography_page {\\n  width: 1395px;\\n  margin: 0 auto;\\n}\\n\\n.biography_text {\\n  margin-top: 50px;\\n  color: rgba(252, 251, 255, 0.85);\\n  font-family: Calibri;\\n  font-size: 110%;\\n  text-align: justify;\\n}\\n\\n.biography_name {\\n  color: rgba(54, 2, 255, 0.72);\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 200%;\\n  text-align: start;\\n  margin-top: 50px;\\n}\\n\\n.biography_word {\\n  color: rgba(252, 251, 255, 0.85);\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 250%;\\n  text-align: start;\\n}\\n\\n.videos {\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content: center;\\n  max-width: 1000px;\\n}\\n\\n.videos_player {\\n  margin: 20px;\\n}\\n\\n.contact_page {\\n  width: 1315px;\\n  margin-left: 80px;\\n}\\n\\n.contact_text {\\n  margin-top: 50px;\\n  color: rgba(252, 251, 255, 0.85);\\n  font-family: Calibri;\\n  font-size: 110%;\\n  text-align: start;\\n}\\n\\n.contact_name {\\n  color: rgba(54, 2, 255, 0.72);\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 200%;\\n  text-align: start;\\n  margin-top: 50px;\\n}\\n\\n.contact_word {\\n  color: rgba(252, 251, 255, 0.85);\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 250%;\\n  text-align: start;\\n}\\n\\n.footer {\\n  width: 100%;\\n  height: 70px;\\n}\\n\\n.socials {\\n  display: flex;\\n  justify-content: center;\\n}\\n\\n.copyright {\\n  display: flex;\\n  justify-content: center;\\n  color: #979797;\\n  font-weight: bold;\\n  font-family: Calibri;\\n  font-size: 130%;\\n}\\n\\n.social_item {\\n  width: 50px;\\n  height: 50px;\\n  background-size: cover;\\n}\\n\\n.social_item:hover {\\n  cursor: pointer;\\n}\\n\\n.soundcloud_link {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_11___ + \");\\n}\\n\\n.facebook_link {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_12___ + \");\\n}\\n\\n.instagram_link {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_13___ + \");\\n}\\n\\n.youtube_link {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_14___ + \");\\n}\\n\\n.twitter_link {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_15___ + \");\\n}\\n\\n.spotify_link {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_16___ + \");\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -133,6 +133,66 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/images/boom_cover.jpg":
+/*!***********************************!*\
+  !*** ./src/images/boom_cover.jpg ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/boom_cover.jpg\");\n\n//# sourceURL=webpack:///./src/images/boom_cover.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/destroy_the_club_cover.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/destroy_the_club_cover.jpg ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/destroy_the_club_cover.jpg\");\n\n//# sourceURL=webpack:///./src/images/destroy_the_club_cover.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/facebook_icon.png":
+/*!**************************************!*\
+  !*** ./src/images/facebook_icon.png ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/facebook_icon.png\");\n\n//# sourceURL=webpack:///./src/images/facebook_icon.png?");
+
+/***/ }),
+
+/***/ "./src/images/fat_beat_cover.jpg":
+/*!***************************************!*\
+  !*** ./src/images/fat_beat_cover.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/fat_beat_cover.jpg\");\n\n//# sourceURL=webpack:///./src/images/fat_beat_cover.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/get_em_high_cover.jpg":
+/*!******************************************!*\
+  !*** ./src/images/get_em_high_cover.jpg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/get_em_high_cover.jpg\");\n\n//# sourceURL=webpack:///./src/images/get_em_high_cover.jpg?");
+
+/***/ }),
+
 /***/ "./src/images/guest_avatar.jpg":
 /*!*************************************!*\
   !*** ./src/images/guest_avatar.jpg ***!
@@ -142,6 +202,18 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/guest_avatar.jpg\");\n\n//# sourceURL=webpack:///./src/images/guest_avatar.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/instagram_icon.png":
+/*!***************************************!*\
+  !*** ./src/images/instagram_icon.png ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/instagram_icon.png\");\n\n//# sourceURL=webpack:///./src/images/instagram_icon.png?");
 
 /***/ }),
 
@@ -181,6 +253,90 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/images/oldschool_rave_cover.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/oldschool_rave_cover.jpg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/oldschool_rave_cover.jpg\");\n\n//# sourceURL=webpack:///./src/images/oldschool_rave_cover.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/play_icon.png":
+/*!**********************************!*\
+  !*** ./src/images/play_icon.png ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/play_icon.png\");\n\n//# sourceURL=webpack:///./src/images/play_icon.png?");
+
+/***/ }),
+
+/***/ "./src/images/somebody_say_yeah_cover.jpg":
+/*!************************************************!*\
+  !*** ./src/images/somebody_say_yeah_cover.jpg ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/somebody_say_yeah_cover.jpg\");\n\n//# sourceURL=webpack:///./src/images/somebody_say_yeah_cover.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/soundcloud_icon.png":
+/*!****************************************!*\
+  !*** ./src/images/soundcloud_icon.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/soundcloud_icon.png\");\n\n//# sourceURL=webpack:///./src/images/soundcloud_icon.png?");
+
+/***/ }),
+
+/***/ "./src/images/spotify_icon.png":
+/*!*************************************!*\
+  !*** ./src/images/spotify_icon.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/spotify_icon.png\");\n\n//# sourceURL=webpack:///./src/images/spotify_icon.png?");
+
+/***/ }),
+
+/***/ "./src/images/twitter_icon.png":
+/*!*************************************!*\
+  !*** ./src/images/twitter_icon.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/twitter_icon.png\");\n\n//# sourceURL=webpack:///./src/images/twitter_icon.png?");
+
+/***/ }),
+
+/***/ "./src/images/youtube_icon.png":
+/*!*************************************!*\
+  !*** ./src/images/youtube_icon.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/youtube_icon.png\");\n\n//# sourceURL=webpack:///./src/images/youtube_icon.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -189,7 +345,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\nlet menuItems = document.querySelectorAll('.nav_menu_item');\nlet navigationContainer = document.getElementById('navigation__container');\n\nlet deleteUnderline = () => {\n    menuItems.forEach(function(item){\n        item.classList.remove('toggle_underline');\n        item.classList.add('nav_hover');\n    });\n};\n\nnavigationContainer.addEventListener(\"click\", (e) => {\n    e.preventDefault();\n    if (e.target.classList.contains('nav_menu_item')) {\n        deleteUnderline();\n        e.target.classList.add('toggle_underline');\n        e.target.classList.remove('nav_hover');\n    }\n});\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/dynamicElements */ \"./src/js/dynamicElements.js\");\n\n\n\n\n\n\n\n\nlet menuItems = document.querySelectorAll('.nav_menu_item');\nlet navigationContainer = document.getElementById('navigation__container');\nlet dynamicContent = document.querySelector('.dynamic_content');\n\nlet deleteNavUnderline = () => {\n    menuItems.forEach(function(item){\n        item.classList.remove('toggle_underline');\n        item.classList.add('nav_hover');\n    });\n};\n\nlet clearAll = () => {\n    dynamicContent.innerHTML = ``;\n};\n\ndynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"homepage\"];\ndynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"footer\"]\n\nnavigationContainer.addEventListener(\"click\", (e) => {\n    e.preventDefault();\n    window.scroll(0,0);\n    if (e.target.classList.contains('nav_menu_item')) {\n        clearAll();\n        deleteNavUnderline();\n        e.target.classList.add('toggle_underline');\n        e.target.classList.remove('nav_hover');\n    }\n\n    if(e.target.classList.contains('homepage')) {\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"homepage\"];\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"footer\"]\n    }\n\n    if(e.target.classList.contains('music')) {\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"music\"];\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"footer\"]\n    }\n\n    if(e.target.classList.contains('biography')) {\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"biography\"];\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"footer\"]\n    }\n\n    if(e.target.classList.contains('video')) {\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"video\"];\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"footer\"]\n    }\n\n    if(e.target.classList.contains('contact')) {\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"contact\"];\n        dynamicContent.innerHTML += _js_dynamicElements__WEBPACK_IMPORTED_MODULE_1__[\"footer\"]\n    }\n});\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/dynamicElements.js":
+/*!***********************************!*\
+  !*** ./src/js/dynamicElements.js ***!
+  \***********************************/
+/*! exports provided: homepage, music, biography, video, contact, footer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"homepage\", function() { return homepage; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"music\", function() { return music; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"biography\", function() { return biography; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"video\", function() { return video; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"contact\", function() { return contact; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"footer\", function() { return footer; });\nlet homepage = `\n    <div class=\"welcome\">Welcome to Nevillar Official Website</div>\n    <iframe class=\"youtube_player\" width=\"854\" height=\"480\" \n    src=\"https://www.youtube.com/embed/d6RPjRH7CsU\" frameborder=\"0\" \n    allow=\"accelerometer;  autoplay; encrypted-media; gyroscope; \n    picture-in-picture\" allowfullscreen></iframe>\n`;\n\nlet music = `\n    <div class=\"welcome\">Welcome to Nevillar Official Website</div>\n    <div class=\"music_box\">\n        <div class=\"music_cover\"></div>\n        <div class=\"track_name\">Nevillar - Somebody Say Yeah</div>\n        <div class=\"play\"></div>\n    </div>\n    <div class=\"music_box\">\n        <div class=\"music_cover\"></div>\n        <div class=\"track_name\">Nevillar - Destroy The Club</div>\n        <div class=\"play\"></div>\n    </div>\n    <div class=\"music_box\">\n        <div class=\"music_cover\"></div>\n        <div class=\"track_name\">Nevillar - Fat Beat</div>\n        <div class=\"play\"></div>\n    </div>\n    <div class=\"music_box\">\n        <div class=\"music_cover\"></div>\n        <div class=\"track_name\">Nevillar - Oldschool Rave</div>\n        <div class=\"play\"></div>\n    </div>\n    <div class=\"music_box\">\n        <div class=\"music_cover\"></div>\n        <div class=\"track_name\">Nevillar - Boom</div>\n        <div class=\"play\"></div>\n    </div>\n    <div class=\"music_box\">\n        <div class=\"music_cover\"></div>\n        <div class=\"track_name\">Nevillar - Get Em High</div>\n        <div class=\"play\"></div>\n    </div>\n    <div class=\"for_alignment\"></div>\n    <div class=\"for_alignment\"></div>\n`;\n\nlet biography = `\n    <div class=\"biography_page\">\n        <div class=\"biography_name\">Nevillar</div>\n        <div class=\"biography_word\">BIOGRAPHY</div>\n        <div class=\"biography_text\">\n                            DJ and producer Nevillar bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla. <br> Bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla. <br> Bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla  bla.\n        </div>\n    </div>\n`;\n\nlet video = ` \n <div class=\"videos\">\n    <iframe class=\"videos_player\" width=\"854\" height=\"480\" \n    src=\"https://www.youtube.com/embed/d6RPjRH7CsU\" frameborder=\"0\" \n    allow=\"accelerometer;  autoplay; encrypted-media; gyroscope; \n    picture-in-picture\" allowfullscreen></iframe>\n    \n    <iframe class=\"videos_player\" width=\"340\" height=\"191\" src=\"https://www.youtube.com/embed/_IQkCubKDXs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    \n<iframe class=\"videos_player\" width=\"340\" height=\"191\" src=\"https://www.youtube.com/embed/8E-AoLs40og\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    \n    <iframe class=\"videos_player\" width=\"340\" height=\"191\" src=\"https://www.youtube.com/embed/R02BfaImkXs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    \n    <iframe class=\"videos_player\" width=\"340\" height=\"191\" src=\"https://www.youtube.com/embed/cAuOlS3QxHg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    \n        <iframe class=\"videos_player\" width=\"340\" height=\"191\" src=\"https://www.youtube.com/embed/bOAf9CmaUFo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n`;\n\nlet contact = `\n        <div class=\"contact_page\">\n        <div class=\"contact_name\">Nevillar</div>\n        <div class=\"contact_word\">CONTACT</div>\n        <div class=\"contact_text\">\n            Management: <br>\n            <a href=\"mailto:nevill4r@gmail.com\">nevill4r@gmail.com</a> <br><br><br>\n            Press & PR: <br>\n            <a href=\"mailto:nevill4r@gmail.com\">nevill4r@gmail.com</a><br><br><br>\n            Phone: <br>\n            <a href=\"tel:+375293591179\">+375-29-359-11-79</a>\n        </div>\n    </div>\n`;\n\nlet footer = `\n <footer class=\"footer\">\n    <div class=\"socials\">\n        <a class=\"social_item soundcloud_link\" href=\"https://soundcloud.com/nevillar\"></a>\n        <a class=\"social_item facebook_link\" href=\"https://www.facebook.com/Nevillar\"></a>\n        <a class=\"social_item instagram_link\" href=\"https://www.instagram.com/nevillar\"></a>\n        <a class=\"social_item youtube_link\" href=\"https://www.youtube.com/channel/UCn-iQbO2o3NA1jQObiOvY1w?view_as=subscriber\"></a>\n        <a class=\"social_item twitter_link\" href=\"https://twitter.com/nevill4r\"></a>\n        <a class=\"social_item spotify_link\" href=\"https://open.spotify.com/artist/1OjL7vV1j8HPenNxeQcTnz\"></a>\n    </div>\n    <div class=\"copyright\">© 2020 Nevillar</div>\n</footer>\n`;\n\n//# sourceURL=webpack:///./src/js/dynamicElements.js?");
 
 /***/ }),
 

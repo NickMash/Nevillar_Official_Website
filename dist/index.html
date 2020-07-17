@@ -8,27 +8,34 @@
     </head>
     <body>
         <div class="overall__container">
-            <header class="header__container">
-                <div class="logo"></div>
-                <div class="name"></div>
-                <div class="guest_name">Hello
-                    <div class="guest">GUEST</div>
-                </div>
-                <div class="avatar"></div>
-                <div class="login_status">Not logged in
-                    <div class="login_status_scale"></div>
-                </div>
-                <div class="login_sign_up_button">LOGIN / SIGN UP</div>
-            </header>
-            <nav class="navigation__container" id="navigation__container">
-                <div class="nav_menu_item toggle_underline">HOMEPAGE</div>
-                <div class="nav_menu_item nav_hover">MUSIC</div>
-                <div class="nav_menu_item nav_hover">BIOGRAPHY</div>
-                <div class="nav_menu_item nav_hover">VIDEO</div>
-                <div class="nav_menu_item nav_hover">CONTACT</div>
-            </nav>
+            <div class="for_header_background_color">
+                <header class="header__container">
+                    <div class="logo">
+                        <div class="logo_icon"></div>
+                        <div class="logo_name"></div>
+                    </div>
+                    <div class="login_box">
+                        <div class="guest_name">Hello
+                            <div class="guest">GUEST</div>
+                        </div>
+                        <div class="avatar"></div>
+                        <div class="login_sign_up_button">LOGIN / SIGN UP</div>
+                    </div>
+                </header>
+            </div>
+            <div class="for_nav_background_color">
+                <nav class="navigation__container" id="navigation__container">
+                    <div class="nav_menu_item homepage toggle_underline">HOMEPAGE</div>
+                    <div class="nav_menu_item music nav_hover">MUSIC</div>
+                    <div class="nav_menu_item biography nav_hover">BIOGRAPHY</div>
+                    <div class="nav_menu_item video nav_hover">VIDEO</div>
+                    <div class="nav_menu_item contact nav_hover">CONTACT</div>
+                </nav>
+            </div>
             <main class="main__container">
+                <div class="dynamic_content">
 
+                </div>
             </main>
         </div>
         <script src="index.js"></script>
