@@ -23,6 +23,22 @@ body {
     user-select: none;
 }
 
+.shadow_body {
+  position:fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000000;
+  opacity:0.95;
+  z-index: 1;
+}
+
+.switch_off {
+  display: none;
+}
+
 .overall__container {
     display: flex;
     justify-content: center;
@@ -205,6 +221,7 @@ body {
 }
 
 .main__container {
+    width: 100%;
     position: initial;
     display: flex;
     justify-content: center;
@@ -213,7 +230,7 @@ body {
 }
 
 .dynamic_content {
-    width: 100%;
+    width: 80%;
     min-height: 900px;
     position: initial;
     display: flex;
@@ -238,13 +255,25 @@ body {
 
 .music_box {
     width: 318px;
-    height: 350px;
+    height: 390px;
     margin: 30px 15px;
     border: 1px #1c3474 solid; //#840500
     -moz-box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;
     -webkit-box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;
     box-shadow: 0 0 10px #1c3474, inset 0 0 30px #1c3474;
     background-color: rgba(0, 0, 0, 0.85);
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.music_box:hover {
+  cursor: pointer;
+  border: 1px #1e3ce1 solid; //#840500
+  -moz-box-shadow: 0 0 10px #1e3ce1, inset 0 0 30px #1e3ce1;
+  -webkit-box-shadow: 0 0 10px #1e3ce1, inset 0 0 30px #1e3ce1;
+  box-shadow: 0 0 10px #1e3ce1, inset 0 0 30px #1e3ce1;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .for_alignment {
@@ -260,29 +289,41 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: -30px;
+    -moz-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.66);
+    box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.66);
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
-.music_box:nth-child(2) .music_cover {
+.music_cover_hover {
+  -moz-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 300px rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 300px rgba(0, 0, 0, 0);
+}
+
+.somebody_say_yeah {
     background-image: url("../images/somebody_say_yeah_cover.jpg");
 }
 
-.music_box:nth-child(3) .music_cover {
+.destroy_the_club {
     background-image: url("../images/destroy_the_club_cover.jpg");
 }
 
-.music_box:nth-child(4) .music_cover {
+.fat_beat {
     background-image: url("../images/fat_beat_cover.jpg");
 }
 
-.music_box:nth-child(5) .music_cover {
+.oldschool_rave {
     background-image: url("../images/oldschool_rave_cover.jpg");
 }
 
-.music_box:nth-child(6) .music_cover {
+.boom {
     background-image: url("../images/boom_cover.jpg");
 }
 
-.music_box:nth-child(7) .music_cover {
+.get_em_high {
     background-image: url("../images/get_em_high_cover.jpg");
 }
 
@@ -293,19 +334,35 @@ body {
     font-size: 130%;
     text-align: center;
     margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .play {
-    margin: 10px auto;
+    margin: 25px auto;
     width: 50px;
     height: 50px;
     background-image: url("../images/play_icon.png");
     background-size: cover;
     opacity: 0.75;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.play:hover {
+  transform: scale(1.2) rotate(360deg);
+  opacity: 1;
+}
+
+.spotify_iframe {
+  margin: 0 auto;
+  width: 258px;
+  height: 80px;
 }
 
 .biography_page {
-    width: 1395px;
+    flex-wrap: wrap;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -314,7 +371,7 @@ body {
     color: rgba(252, 251, 255, 0.85);
     font-family: Calibri;
     font-size: 110%;
-    text-align: justify
+    text-align: justify;
 }
 
 .biography_name {
@@ -337,17 +394,24 @@ body {
 .videos {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
     max-width: 1000px;
 }
 
-.videos_player {
+.main_video {
     margin: 20px;
 }
 
+.videos_player {
+    margin: 20px;
+    width: 407px;
+    height: 229px;
+}
+
 .contact_page {
-    width: 1315px;
-    margin-left: 80px;
+    width: 100%;
+    margin-right: 80px;
 }
 
 .contact_text {
@@ -378,6 +442,7 @@ body {
 .footer {
     width: 100%;
     height: 70px;
+  margin: 40px;
 }
 
 .socials {
@@ -395,8 +460,8 @@ body {
 }
 
 .social_item {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-size: cover;
 }
 
