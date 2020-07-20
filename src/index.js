@@ -60,10 +60,23 @@ navigationContainer.addEventListener("click", (e) => {
         dynamicContent.innerHTML += music;
         dynamicContent.innerHTML += footer;
 
-        dynamicContent.addEventListener("mouseover", (e) => {
-            console.log(e.target.firstElementChild.classList);
-            if (e.target.classList.contains('music_box') || e.target.classList.contains('music_cover') || e.target.classList.contains('track_name') || e.target.classList.contains('play') || e.target.classList.contains('spotify_iframe')) {
+        document.body.addEventListener("mouseover", (e) => {
+
+            let allMusicCovers = document.querySelectorAll('.music_cover');
+            let allTrackNames = document.querySelectorAll('.track_name');
+
+            if (e.target.classList.contains('music_box')) {
                 e.target.firstElementChild.classList.add('music_cover_hover');
+                e.target.childNodes[1].nextElementSibling.classList.add('track_name_hover');
+            } else if (e.target.classList.contains('track_name')) {
+                   e.target.parentNode.childNodes[1].nextElementSibling.classList.add('track_name_hover');
+            } else if (e.target.classList.contains('play')) {
+                e.target.parentNode.childNodes[1].nextElementSibling.classList.add('track_name_hover');
+            } else if (e.target.classList.contains('music_cover')) {
+                e.target.parentNode.childNodes[1].nextElementSibling.classList.add('track_name_hover');
+            } else {
+                allMusicCovers.forEach(elem => elem.classList.remove('music_cover_hover'));
+                allTrackNames.forEach(elem => elem.classList.remove('track_name_hover'));
             }
         });
 

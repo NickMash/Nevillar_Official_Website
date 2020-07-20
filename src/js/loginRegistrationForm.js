@@ -24,7 +24,6 @@ let check = () => {
 let valid = () => {
     let strPass="<span style='color:red;'>"+document.getElementById('form-login').value+"</span>";
     document.getElementById('result').innerText=strPass;
-    console.log(strPass);
 
     let inputs = document.getElementsByClassName('for-js-check');
     let p = document.getElementsByClassName('notice');
